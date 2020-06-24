@@ -1,4 +1,5 @@
 {
+  "homepage": "https://nadiamariduena.github.io/first-redux-shopping-cart/.",
   "name": "react-shop-cartone",
   "version": "1.0.0",
   "description": "",
@@ -9,7 +10,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build"
   },
-  "author": "",
+  "author": "melissa murillo",
   "license": "ISC",
   "dependencies": {
     "autoprefixer": "^9.8.0",
