@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/first-redux-shopping-cart/static/css/main.c0387b68.chunk.css",
-    "main.js": "/first-redux-shopping-cart/static/js/main.7d3d5658.chunk.js",
-    "main.js.map": "/first-redux-shopping-cart/static/js/main.7d3d5658.chunk.js.map",
+    "main.css": "/first-redux-shopping-cart/static/css/main.89500622.chunk.css",
+    "main.js": "/first-redux-shopping-cart/static/js/main.56ac6c60.chunk.js",
+    "main.js.map": "/first-redux-shopping-cart/static/js/main.56ac6c60.chunk.js.map",
     "runtime-main.js": "/first-redux-shopping-cart/static/js/runtime-main.0b4fa6fd.js",
     "runtime-main.js.map": "/first-redux-shopping-cart/static/js/runtime-main.0b4fa6fd.js.map",
-    "static/js/2.9d3f770c.chunk.js": "/first-redux-shopping-cart/static/js/2.9d3f770c.chunk.js",
-    "static/js/2.9d3f770c.chunk.js.map": "/first-redux-shopping-cart/static/js/2.9d3f770c.chunk.js.map",
+    "static/js/2.ed852c3e.chunk.js": "/first-redux-shopping-cart/static/js/2.ed852c3e.chunk.js",
+    "static/js/2.ed852c3e.chunk.js.map": "/first-redux-shopping-cart/static/js/2.ed852c3e.chunk.js.map",
     "index.html": "/first-redux-shopping-cart/index.html",
-    "precache-manifest.c2f5c8e9a94823cdc4e37b9e1e91b411.js": "/first-redux-shopping-cart/precache-manifest.c2f5c8e9a94823cdc4e37b9e1e91b411.js",
+    "precache-manifest.f753df5eeeda9b340b1c93b53dbcd498.js": "/first-redux-shopping-cart/precache-manifest.f753df5eeeda9b340b1c93b53dbcd498.js",
     "service-worker.js": "/first-redux-shopping-cart/service-worker.js",
-    "static/css/main.c0387b68.chunk.css.map": "/first-redux-shopping-cart/static/css/main.c0387b68.chunk.css.map",
-    "static/js/2.9d3f770c.chunk.js.LICENSE.txt": "/first-redux-shopping-cart/static/js/2.9d3f770c.chunk.js.LICENSE.txt",
+    "static/css/main.89500622.chunk.css.map": "/first-redux-shopping-cart/static/css/main.89500622.chunk.css.map",
+    "static/js/2.ed852c3e.chunk.js.LICENSE.txt": "/first-redux-shopping-cart/static/js/2.ed852c3e.chunk.js.LICENSE.txt",
+    "static/media/Gucci-Pre-Fall-2020-metalmagazine-12.jpg": "/first-redux-shopping-cart/static/media/Gucci-Pre-Fall-2020-metalmagazine-12.313939b4.jpg",
     "static/media/main.scss": "/first-redux-shopping-cart/static/media/TylerMitchell-metalmagazine-2.3c77efe9.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.0b4fa6fd.js",
-    "static/js/2.9d3f770c.chunk.js",
-    "static/css/main.c0387b68.chunk.css",
-    "static/js/main.7d3d5658.chunk.js"
+    "static/js/2.ed852c3e.chunk.js",
+    "static/css/main.89500622.chunk.css",
+    "static/js/main.56ac6c60.chunk.js"
   ]
 }
