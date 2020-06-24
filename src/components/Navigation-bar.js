@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { connect } from "react-redux";
+import { getNumbers } from "../actions/getAction";
 //
-function Navigation() {
+function Navigation(props) {
+  console.log(props);
+
+  useEffect(() => {
+    getNumbers();
+  }, []);
+
   return (
     <header>
       <div className="overlay"> </div>
@@ -17,7 +24,7 @@ function Navigation() {
           <li className="cart">
             <a href="home.html">
               <ion-icon name="basket-outline"></ion-icon>
-              Cart <span>0</span>
+              Cart <span>{props.basketProps.basketNumbers}</span>
             </a>
           </li>
         </ul>
@@ -32,4 +39,4 @@ const mapStateToProps = (state) => ({
 });
 
 // export default Navigation;
-export default connect(mapStateToProps, { addBasket })(Navigation);
+export default connect(mapStateToProps, { getNumbers })(Navigation);
