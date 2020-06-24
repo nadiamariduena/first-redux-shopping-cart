@@ -11,9 +11,11 @@ function Navigation(props) {
 
   return (
     <header>
+      <h1>Laibachh</h1>
       <div className="overlay"> </div>
       <nav>
         <h2>Shop</h2>
+
         <ul>
           <li>
             <a href="home.html">Home</a>
