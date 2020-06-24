@@ -1,11 +1,9 @@
-import ADD_PRODUCT_BASKET from "../actions/types";
-
-// -----state
+import { ADD_PRODUCT_BASKET, GET_NUMBERS_BASKET } from "../actions/types";
+// ------state
 const initialState = {
   basketNumbers: 0,
 };
 // ------state
-
 export default (state = initialState, action) => {
   //
   // this is to cover the type of action i am going to receive
