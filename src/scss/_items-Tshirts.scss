@@ -1,0 +1,89 @@
+.section-top {
+  width: 100vw;
+  height: auto;
+}
+.container {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 5em 10em;
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  // the auto fit will make it adaptable to the device.
+  // the minmax means that the box will always keep that size, unless i change it.
+  // if you dont add the fraction, leaving alone the 250px, the box will occupy the 100% width, but using the fraction will put it in 2 rows.
+  border-bottom: 1px solid #000;
+
+  //   --------------
+
+  .image {
+    width: 95%;
+    height: auto;
+    padding: 30px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 6px solid rgb(0, 0, 0);
+    box-shadow: 15px -15px 0 0 rgb(1, 39, 255);
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+
+    img {
+      margin: 10px;
+      width: 70%;
+      min-height: auto;
+      object-fit: cover;
+    }
+
+    h3 {
+      font-size: 1rem;
+      text-align: center;
+      color: rgb(0, 0, 0);
+      padding: 5px 10px 10px 10px;
+      margin: 10px;
+    }
+    h4 {
+      text-align: center;
+      font-size: 0.8rem;
+      color: rgb(139, 139, 139);
+      padding: 5px 10px 10px 10px;
+      margin: 10px;
+    }
+  }
+
+  a {
+    text-decoration: none;
+  }
+  .addToCart {
+    margin: 20px 10px 30px 10px;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    background-color: transparent;
+    transition: all 0.5s ease-in-out;
+    opacity: 1;
+    cursor: pointer;
+    text-align: center;
+    color: black;
+    &:hover {
+      color: rgb(255, 255, 255);
+      border: 1px solid rgb(255, 255, 255);
+      background-color: rgb(0, 0, 0);
+    }
+  }
+}
+// ------------------
+// ------------------
+
+.section-result {
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    margin: 60px;
+    color: rgb(255, 255, 255);
+    word-spacing: 2px;
+  }
+}

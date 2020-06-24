@@ -1,0 +1,56 @@
+@import "items-Tshirts";
+@import "navbar";
+@import "mixin";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+:root {
+  font-size: 16px;
+}
+
+// --------------------------
+//
+body::-webkit-scrollbar {
+  width: 1em;
+  /* background-color: #fff; */
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 1px rgb(0, 0, 0);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(15, 15, 15);
+  outline: none;
+}
+//
+
+// ------------------------------------
+body {
+  background-image: url(../img/TylerMitchell-metalmagazine-2.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  // ------------------------------------
+  // ------------------------------------
+  // ------------------------------------
+  //
+  //
+  .App {
+    display: flex;
+    flex-wrap: wrap;
+    //
+  }
+}
